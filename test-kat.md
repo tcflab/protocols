@@ -1,1 +1,0 @@
-kat's test protocol
