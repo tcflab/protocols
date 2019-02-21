@@ -2,9 +2,10 @@
 ## Date 2/21/2019
 ## Author - Gabrielle Barry
 ## Materials
-* Phusion
-* Forward and Reverse Primers for each segment
+* Phusion High-Fidelity PCR Master Mix (NEB #50994945)
+* forward and reverse primers for each segment
 * DEPC H2O
+* 0.2 ml TempAssure PCR 8-Tube flex-free strips (Fisher Scientific NC9989922)
 
 ## Protocol
 1. Thaw Phusion and keep on ice
