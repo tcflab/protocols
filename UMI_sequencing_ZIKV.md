@@ -107,7 +107,7 @@ hold | - | 4 | infinite
 
 Note: Variables that may require optimization, depending on your template and primers -- annealing temp, number of PCR cycles. 
 
-### PCR1 DNA bead cleanup. 
+### DNA bead cleanup. 
 
 AMPure XP for PCR purification (Cat #: Beckman Coulter A63881)
 
