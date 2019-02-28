@@ -4,10 +4,10 @@
 **Date**: 2019-02-27  
 **Materials**: Catalog numbers for reagents and materials are listed within the protocol. 
 
-1. [Amplicon-preparation](##Amplicon-preparation)
-2. [Library preparation and QC](##Library-preparation-and-QC) 
-3. [Sequencing](##Sequencing)
-4. [Analyzing UMI-labeled amplicon reads](##An-overview-to-analyzing-amplicon-reads-labeled-with-a-unique-molecular-identifier)
+1. [Amplicon-preparation](#Amplicon-preparation)
+2. [Library-preparation-and-QC](#Library-preparation-and-QC) 
+3. [Sequencing](#Sequencing)
+4. [Analyzing-UMI-labeled-amplicon-reads](#An-overview-to-analyzing-amplicon-reads-labeled-with-a-unique-molecular-identifier)
 
 **Purpose**: To label individual RNA templates with unique molecular identifiers (UMIs), which will be bioinformatically processed post-sequencing to capture nucleotide substitutions that were introduced during library preparation and sequencing. Raw sequence reads labeled with identical UMI are pooled and merged to generate one consensus sequence, which minimizes *method-SNPs* and retains *true SNPs*. This allows us to get a really accurate approximation of the size and makeup of the population of input RNA molecules. This is necessary for high-confidence and low-frequency SNP calls as well as for tracking barcoded viruses over time and between hosts. 
 
