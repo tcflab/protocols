@@ -13,7 +13,7 @@
 
 As an alternative to UMI-sequencing, many groups have shown that sequencing in replicate (2-3x) and keeping variant calls seen in all replicates is a very effective strategy to reduce method errors. 
 
-## Amplicon preparation 
+## Amplicon-preparation 
 
 Notes: 
 - *This protocols assumes are you starting with high-quality, purified vRNA*. 
@@ -194,7 +194,7 @@ QIAquick gel extraction kit (Cat #: Qiagen 28115)
 
 Perform gel extraction according to QIAquick gel extraction manufacturer protocol. Elute in 10-12ul of elution buffer or clean water. See `QIAquick_gel_extraction.md` for details. 
 
-## Library preparation and QC 
+## Library-preparation-and-QC 
 
 Qubit dsDNA HS Assay Kit (Cat #: ThermoFisher Q32854)  
 BioAnalyze chips + reagents (hsDNA) (Cat #: Agilent 5067-1505 and 5067-1504)
@@ -220,7 +220,7 @@ PhiX:
 4. Spike the diluted library with ~30% PhiX (depending on what else is in the run). 
 5. Load a 250x250 v2 cartridge and flow cell for paired-end sequencing. 
 
-## An overview to analyzing amplicon reads labeled with a unique molecular identifier 
+## An-overview-to-analyzing-amplicon-reads-labeled-with-a-unique-molecular-identifier 
 
 ![An intro to analyzing UMI-labeled Illumina reads](images/UMI_analysis)
 
