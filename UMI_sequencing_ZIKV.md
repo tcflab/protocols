@@ -180,7 +180,7 @@ hold | - | 4 | infinite
 
 **Expected product length**: 252 bps 
 
-![List of indexed PCR2 fwd primers](images/UMI_indexed_primers) 
+![List of indexed PCR2 fwd primers](images/UMI_indexed_primers/UMI_indexed_primers) 
 
 ### Gel cleanup and extraction. 
 
@@ -204,8 +204,8 @@ BioAnalyze chips + reagents (hsDNA) (Cat #: Agilent 5067-1505 and 5067-1504)
     - a few tips: make sure gel-dye is no more than 30 days old, make sure pressure applicator is set to 1ml, is at the bottom rung and plate is set to C, make sure the gasket is making a strong seal with the chip. 
 3. Depending on how the traces and Qubit values, an additional bead clean-up may be recommended. 
 
-![Example of a desirable BioAnalyzer trace](example_trace)  
-![Example of a trace with daisy-chaining](daisy-chain_trace) 
+![Example of a desirable BioAnalyzer trace](images/example_trace/example_trace)  
+![Example of a trace with daisy-chaining](images/daisy-chain_trace/daisy-chain_trace) 
 
 4. Samples can be loaded separately. However, if there are >10 samples we recommend pooling samples equimolarly and qubiting and bioanalyzing the pool. 
 
@@ -222,7 +222,7 @@ PhiX:
 
 ## An overview to analyzing amplicon reads labeled with a unique molecular identifier 
 
-![An intro to analyzing UMI-labeled Illumina reads](UMI_analysis)
+![An intro to analyzing UMI-labeled Illumina reads](images/UMI_analysis/UMI_analysis)
 
 For bioinformatic protocols see [this](https://github.com/katarinabraun/UMItools) repository. 
 
