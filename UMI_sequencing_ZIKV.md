@@ -4,7 +4,7 @@
 **Date**: 2019-02-27  
 **Materials**: Catalog numbers for reagents and materials are listed within the protocol. 
 
-1. [Amplicon preparation](##Amplicon-preparation)
+1. [Amplicon-preparation](##Amplicon-preparation)
 2. [Library preparation and QC](##Library-preparation-and-QC) 
 3. [Sequencing](##Sequencing)
 4. [Analyzing UMI-labeled amplicon reads](##An-overview-to-analyzing-amplicon-reads-labeled-with-a-unique-molecular-identifier)
