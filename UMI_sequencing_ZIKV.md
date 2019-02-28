@@ -211,8 +211,8 @@ BioAnalyze chips + reagents (hsDNA) (Cat #: Agilent 5067-1505 and 5067-1504)
 
 ## Sequencing
 
-500-cycle cartridge: 
-PhiX: 
+500-cycle cartridge v2: Illumina catalog MS-102-2003      
+PhiX: Illumina catalog FC-110-3001 
 
 1. Pool samples equimolarly into a 4nM pool. 
 2. Denature dsDNA using a 0.2N NaOH. 
