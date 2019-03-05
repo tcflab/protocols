@@ -1,7 +1,7 @@
 # Protocols
 Shared protocols used for Friedrich Lab projects.
 ## Sequencing Protocols
-* [UMI Sequencing](https://github.com/tcflab/protocols/blob/master/UMI_sequencing_ZIKV.md)
+* [UMI sequencing](https://github.com/tcflab/protocols/blob/master/UMI_sequencing_ZIKV.md)
 ## RTs and PCRs
 * [VILO RT H7N9](https://github.com/tcflab/protocols/blob/master/VILO_Reverse_Transcription_h7n9_GLB_2019-02-15.md)
 * [Phusion PCR H7N9](https://github.com/tcflab/protocols/blob/master/Phusion_PCR_h7n9_GLB_2019-02-21.md)
