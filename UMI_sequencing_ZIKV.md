@@ -18,7 +18,7 @@ As an alternative to UMI-sequencing, many groups have shown that sequencing in r
 Notes: 
 - *This protocols assumes are you starting with high-quality, purified vRNA*. 
 - If possible, we recommend quantifying vRNA copy number. Bioinformatic analysis of UMI-labeled reads is optimized near 30X-coverage *per input template*. 
-- Confidence intervals of SNP frequency calls increase substantially when the total number of RNA molecules going into the RT is less than or equal to 100 copies.
+- Confidence intervals of SNP frequency calls increase substantially when the total number of RNA molecules input into the RT is less than or equal to 100 copies.
 
 ### Reverse Transcription
 
@@ -27,7 +27,7 @@ SSIV (Cat #: Fischer 18091050)
 **Primers**: 
 - "ZIKV_RT_UMI":  5'GGAGTTCAGACGTGTGCTCTTCCGATCTNNNNNNNNNNNNCCCCCGCAAGTAGCAAGGCCTG3' 
     - contains 12-bp UMI 
-    - we order these primers order 'hand-mixed' from IDT
+    - we order these primers 'hand-mixed' from IDT
 
 1. Combine RNA + primers + dNTPs into a 0.5 ml RNase-free tube
 
