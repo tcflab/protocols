@@ -36,7 +36,7 @@ Hold | 4 | forever
 
 Segment | Primers | Expected Amplicon Length | Thermocycler, number, row | Annealing Temp C
 |---|---|---|---|---|
-PB2 | speH7N9-PB2-F, speH7N9-PB2-R | ~2280 | thermoccycler 3, rows 1-2 | 68
+PB2 | speH7N9-PB2-F, speH7N9-PB2-R | ~2280 | thermocycler 3, rows 1-2 | 68
 PB1 | speH7N9-PB1-F, speH7N9-PB1-R | ~2274 | thermocycler 3, rows 5-12 | 72
 PA | speH7N9-PA-F3, PA-u13+20R | ~2151 | thermocycler 3, rows 5-12 | 72
 HA | speH7N9-HA-F2, speH7N9-HA-R2 | ~1695 | thermocycler 3, 3-4 | 71
