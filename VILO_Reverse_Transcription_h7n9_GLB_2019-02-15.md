@@ -2,6 +2,9 @@
 ### Date - 2/15/2019
 ### Author - Gabrielle Barry
 
+### Purpose
+* The purpose of this experiment is to create cDNA from H7N9 samples from Yoshi's lab so they can be amplified and sequenced. 
+
 ### Materials
 * SuperScript IV VILO Master Mix (Invitrogen 11756050)
 * RNase OUT (Invitrogen 10777019)

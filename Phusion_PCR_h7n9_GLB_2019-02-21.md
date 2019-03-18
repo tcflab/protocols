@@ -1,6 +1,10 @@
 # Phusion PCR h7n9 samples
 ## Date 2/21/2019
 ## Author - Gabrielle Barry
+
+## Purpose
+* The purpose of this protocol is to amplify gene segments from H7N9 samples from Yoshi's lab so they can be sequenced. 
+
 ## Materials
 * Phusion High-Fidelity PCR Master Mix (NEB #50994945)
 * forward and reverse primers for each segment
