@@ -39,6 +39,7 @@ SIV p27 Antigen ELISA kit (Zeptometrix 0801169)
 12. On day 14 post-inoculation read out assay by p27 ELISA. Briefly centrifuge plate to pellet cells. Use 50 ul supernatant from each well in the p27 ELISA, following instructions in the kit.
 13. Calculate TCID50 using the proportionate distance method (see attached example for explanation)
 
-![Proportionate Distance calculation](protocols/images/TCID50_calculation_example.pdf)
+![Proportionate Distance calculation](https://github.com/tcflab/protocols/blob/master/images/TCID50_calculation_example.pdf)
+
 
       
