@@ -9,11 +9,13 @@
 
 - R Primer (resuspended in TE buffer to 200 uM)
 
-- random hexamers from Promega
+- random hexamers from Promega (catalog number C1181)
 
 - DEPC water
 
-- RNase out
+- RNase out from LifeTechnologies (catalog number 10777-019)
+
+- colored PCR 8-tube strips with individually attached caps
 
 - 1.5 mL or 2.0 mL Eppendorf tubes
 
@@ -49,7 +51,7 @@
 
 - SIV 1635-R    CACTAGKTGTCTCTGCACTATPTGTTTTG
 
-  - The P and K are modified bases that we use in our probe. They bind certain combinations of bases with equal efficiency. They are available through Biosearch Technologies.
+  - The P and K are modified bases that we use in our primers. They bind certain combinations of bases with equal efficiency. They are available through Biosearch Technologies.
 
 - ZIKV_Lanc_univ_F    CGYTGCCCAACACAAGG
 
