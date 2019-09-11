@@ -34,7 +34,8 @@ SSIV (Cat #: Fischer 18091050)
 Anneal primer | ul/tube | [stock] | [final] |
 --------------|---------|---------|--------|
 vRNA | up to 10ul | | |
-dNTP mix | 1ul | 2uM | 0.5uM|
+dNTP mix | 1ul | 10mM each | 0.5uM|
+ZIKV_RT_UMI | 1ul | 2uM | 0.1 uM|
 DEPC-treated water | bring to 13ul | - | - |
 
 Total volume = 13ul 
