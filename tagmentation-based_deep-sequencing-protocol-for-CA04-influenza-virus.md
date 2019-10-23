@@ -2,8 +2,8 @@
 
 ### A few important considerations:  
 - This protocol assumes you are starting with relatively high-quality viral RNA.
-- When possible, quantify viral RNA (copies/µl) by QRT-PCR or Qubit. We have found SNP calls are more accurate and reliable when starting with >1,000 RNA template molecules that go into reverse transcription. 
-- When working with vRNA, it is important to work in a clean space (has had minimal contact with amplified nucleic acids and is clened often to minimize RNAse contamination). 
+- When possible, quantify viral RNA (copies/µl) by QRT-PCR or Qubit. We have found SNP calls are more accurate and reliable when starting with >1,000 RNA template molecules in each reverse transcription. 
+- When working with viral RNA, it is important to work in a clean space (a space that has had minimal contact with amplified nucleic acids and is clened often to minimize RNAse contamination). 
 - We clean all pipetters, pipette boxes, and working surfaces with a 10% bleach solution and then a 70% ethanol solution before and after each of the below steps. This helps minimize cross-contaminaton between samples and off-target amplification. 
 
 ## Reverse transcription
@@ -18,10 +18,10 @@
 - Ultrapure water. 
 
 **Protocol**
-1. Add RNase OUT to DEPC-treated water (10ul to 1ml or equivalent)
+1. Add RNase OUT to DEPC-treated water (10µl to 1ml or equivalent)
 2. Add the following components to an empty RNAse-free tube on ice.
 
-Reagent | ul/tube (ul) | Master Mix (ul) (10x)
+Reagent | µl/tube (µl) | Master Mix (µl) (10x)
 --- | --- | ---
 SSIV VILO Master Mix | 4 |44
 Template RNA | 10 | add independently
@@ -55,7 +55,7 @@ DEPC-treated H2O (with 1:10000 RNase OUT) | 5 | 55
 4. Aliquot cDNA. 
 5. Pipette thoroughly to mix. 
 
-Per each Segment 8x| 1x (ul) | MM 10x (+10% extra)
+Per each Segment 8x| 1x (µl) | MM 10x (+10% extra)
 |---|---|---|---|
 2x Phusion MM | 10 | 110
 PCR_fwd (10uM) | 1 | 11
@@ -63,7 +63,7 @@ PCR_rev (10uM) | 1 | 11
 cDNA | 2 | Add individually |
 Water | 6ul | 66
 
-*Total Reaction Volume*: 18ul MM in each tube. Add 2ul cDNA to bring the total reaction volume to 20ul. 
+*Total Reaction Volume*: 18µl MM in each tube. Add 2µl cDNA to bring the total reaction volume to 20µl. 
 
 **Cycling conditions**
 Per each Segment | Temp C | Time 
@@ -110,9 +110,9 @@ Primer | Sequence (5'-3') | Orientation | Segment | Annealing temp (C) |
 
 **Protocol** 
 
-1. Make 1% agaose gel. We make 90ml gels, so add 0.9mg of agaose power fo 90ml of TAE. Microwave until clear. When agarose is cool enough touch, add 9µl of SYBR Safe and pour into gel box. Gels are okay at 4C for one week after they are poured. 
+1. Make 1% agaose gel. We make 90ml gels by adding 0.9mg of agaose power fo 90ml of TAE. Microwave until clear. When agarose is cool to the touch, add 9µl of SYBR Safe and pour into gel box. Gels are okay at 4C for one week after they are poured. 
 2. Add gel dye (5x or 6x) to samples and load samples into gel. Load 5-10µl of 100bp ladder in at least one well in order to accurately extract the band of interest. 
-3. Run gel at 100V for 35 minutes. 
+3. Run gel at 110V for 35 minutes. 
 4. Image gel and extract bands of interest. Expected band sizes are outlined in table below. 
 5. Extract bands of interest using scalpel and place in labeled 1.5ml eppendorf tubes. 
 6. Proceed with QIAquick Gel Extraction Protcol as per manufacturer's instructions (outlined briefly below):
@@ -154,8 +154,8 @@ NS | ~950 |
 Illumina's Nextera DNA Library Prep Reference Guide can be found [here](https://support.illumina.com/content/dam/illumina-support/documents/documentation/chemistry_documentation/samplepreps_nextera/nexteradna/nextera-dna-library-prep-reference-guide-15027987-01.pdf). 
 
 **Protocol** 
-1. At this point, if we are doing whole-genome sequencing, we will pools segments prior to tagmentation and indexing. To do this, if segment samples are >1ng/µl, we dilute them down to 1ng/µl then pool by adding 1µl of each segment to the pooled sample. We repeat Qubit quantification of these pools once more -- concentrations are usually 0.5ng - 1ng/µl. Add 1ng of these pools to a total of 5µl of water (you want 1ng segment or equimolar pool per 5µl volume before you proceed to tagmentation). 
-    - We use an Excel spreadsheet to assist with these calculations and are happy to share this sheet if it would be helpful. 
+1. At this point, if we are doing whole-genome sequencing, we will pools segments (back into full genomes) prior to tagmentation and indexing. To do this, if segment samples are >1ng/µl, we dilute them down to 1ng/µl then pool by adding 1µl of each segment to the pooled sample. We repeat Qubit quantification of these pools once more -- concentrations are usually 0.5ng - 1ng/µl. Add 1ng of these pools to a total of 5µl of water (you want 1ng segment or equimolar pool per 5µl volume before you proceed to tagmentation). 
+    - We use an Excel spreadsheet to assist with these calculations and are happy to share this sheet if requested. 
 2. Tagmentation (shear DNA and add short adapter sequences to the end of these products). 
     - Remove the ATM, TD, and input DNA from the -20 and thaw on ice. 
     - Ensure that the NT is at room temp. Ensure there is no precipitate. We usually get the NT out after the tubes go on the thermocycler. 
@@ -276,39 +276,39 @@ Genome ID | i5 (S5XX / threemid / white cap) | i7 (N7XX / fivemid / orange cap) 
     - Average fragment should be 500 - 800 bps. If average fragment is higher than this, you might have trouble getting efficient clustering. 
     - Look for samples with low-peaks. This might be primer dimer and may indicate the sample needs to be cleaned up again, either by bead cleanup or gel extraction. 
 
-`You can probably stop at this stage if you are sending your samples off to be sequenced, other wise I have outlined the basic steps of loading an Illumina sequencing run below.`
+`You can probably stop at this stage if you are sending your samples off to be sequenced at a biotechnology center, otherwise I have outlined the basic steps of loading an Illumina sequencing run below.`
 
 3. Pool samples equimolarly to make a 4nM pool. There are many ways of doing this. We use an Excel sheet to assist with these calculations and are happy to share this sheet if it would be helpful to anyone. [Here](https://support.illumina.com/content/dam/illumina-support/documents/documentation/system_documentation/miseq/miseq-denature-dilute-libraries-guide-15039740-10.pdf) is Illumina's Denature and Dilute Library Guide. 
-4. We usually confirm that the final pool is within 10% of 4nM by repeating Qubiting (and possibly BioAnalyzing if you are worried) of the final pool: (concentration in ng/µl) \ ((660g/mol)(average size (bp)) * 1,000,000 = final pool nM 
+4. We usually confirm that the final pool is within 10% of 4nM by repeating Qubiting (and possibly BioAnalyzing if needed) of the final pool: (concentration in ng/µl) \ ((660g/mol)(average size (bp)) * 1,000,000 = final pool nM 
 
 ## Loading a sequencing library on the Illumina MiSeq 
 
 **Materials**
-- MiSeq Reagent Kit v3 (600 cycle): Illumina MS-102-3003 (this is a good option, but the v2 2x150 or 2x250 options will also work well)
+- MiSeq Reagent Kit v3 (600 cycle): Illumina MS-102-3003 (this is a good option, but the v2 2x150 or v2 2x250 options will also work well)
 - PhiX Control v3: Illumina FC-110-3001
 - NaOH, freshly diluted to 0.2N: standard
 - Tris-HCl, pH 8.5, 0.1% tween 20: FisherScientific Teknova T7724
 
 **Protocol**
 
-The below protcol is to prep at 16pM library spiked with 1% PhiX. This will need to be adjusted depending on sequencing chemistry, library type etc. 
+The below protocol is to prep a 16pM library spiked with 1% PhiX. This will need to be adjusted depending on sequencing chemistry, library type etc. 
 
-In general, bumping up the loading concentration will increase yield, but at the cost of read quality. 1% PhiX is typically sufficient for fragmentation-based libraries, but may need to be increased substantially when sequencing amplicon libraries or libraries that will be low diversity. 
+In general, bumping up the loading concentration will increase read yield, but at the cost of read quality. 1% PhiX is typically sufficient for fragmentation-based libraries, but may need to be increased substantially when sequencing amplicon libraries or libraries that have low sequence diversity. 
 
 [Here](https://www.illumina.com/content/dam/illumina-marketing/documents/products/other/miseq-overclustering-primer-770-2014-038.pdf) and [here](https://genohub.com/loading-concentrations-optimal-cluster-density/) are PDFs outlining Illumina's notes on optimizing cluster density. 
 
-1. Dilute freshy NaOH - 800µl ultrapure water + 200µl 1.0N to achieve 0.2N NaOH. Invert the tube to mix. 
+1. Dilute NaOH: 800µl ultrapure water + 200µl 1.0N to achieve 0.2N NaOH. Invert the tube to mix. 
 2. Prep PhiX
-    - Create 4nM PhiX control in 5ul 
-        - 2ul of 10nM PhiX control (from Illumina tube) + 3ul of 10mM Tris-HCl, pH 8.5, with 0.1% tween 20
+    - Create 4nM PhiX control in 5µl 
+        - 2µl of 10nM PhiX control (from Illumina tube) + 3µl of 10mM Tris-HCl, pH 8.5, with 0.1% tween 20
     - Denature 4nM PhiX control 
-        - 5ul 4nM PhiX library + 5ul 0.2N NaOH @ 5 mins @ room temp 
+        - 5µl 4nM PhiX library + 5µl 0.2N NaOH @ 5 mins @ room temp 
     - Create 20pM library 
-        - Add 990ul HT1 = 1ml of 20pM PhiX library 
+        - Add 990µl HT1 = 1ml of 20pM PhiX library 
     - Create 16pM PhiX library 
-        - 480ul 20pM PhiX + 120ul HT1 = 600ul 16pM PhiX 
+        - 480µl 20pM PhiX + 120µl HT1 = 600µl 16pM PhiX 
 3. Prep Library
-    - Pool 4nM library in 250µl (see “sample sheet slide”). Bring up final volume with RSB, not water. Pipetted >1µl of each sample. Qubit the final library to ensure that you created a 4nM library. 
+    - Pool 4nM library in X µl (X = variable, depending on number and concentration of samples). Bring up final volume with RSB, not water. Pipette >1µl of each sample. Qubit the final library to ensure that you created a 4nM library. 
     - Denature 4nM library
     - 5µl of 4nM library + 5µl 0.2N NaOH @ 5 mins @ room temp
     - Create 20pM library
@@ -316,5 +316,5 @@ In general, bumping up the loading concentration will increase yield, but at the
     - Create 16pM library 
         - 480µl 20pM library + 120µl cold HT1 = 600µl of 16pM library 
 4. Prep final library (16pM with 30% PhiX control) 
-    - 6µl 16pM PhiX + 594ul 16pM library = 600µl 16pM library + 1% PhiX control 
+    - 6µl 16pM PhiX + 594µl 16pM library = 600µl 16pM library + 1% PhiX control 
 5. Load 600µl into loading well of cartridge. 
