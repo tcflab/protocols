@@ -76,26 +76,27 @@ Final Extension | 72 | 5 minutes
 Hold | 4 | forever
 
 **Segment specific primers**
+
 Primer | Sequence (5'-3') | Orientation | Segment | Annealing temp (C) |
 |---|---|---|---|---|
-PB2_CA04_F | ATA TAC GCG TAG CGA AAG CAG GTC AA | Forward |  PB2 | 67 |
-PB2_CA04_R | ATA TAC GCG TAG TAG AAA CAA GGT CG | Reverse | PB2 | 67 |
-PB1_CA04_F | ATA TAC GCG TAG CGA AAG CAG GCA AA | Forward | PB1 | 67|
-PB1_CA04_R | ATA TAC GCG TAG TAG AAA CAA GGC AT | Reverse | PB1 | 67|
-PA_CA04_F | ATA TAC GCG TAG CGA AAG CAG GTA CT | Forward | PA | 63|
-PA_CA04_R | ATA TAC GCG TAG TAG AAA CAA GGT AC | Reverse | PA | 63|
-HA_CA04_F_v1 | ATA TAC GCG TAG CGA AAG CAG GGG AA | Forward | HA | 61|
-HA_CA04_R_v1 | ATA TAC GCG TAG TAG AAA CAA GGT GT | Reverse | HA | 61|
-HA_CA04_F-v2 | AG CAA AAG CAG GGG AAA ACA A | Forward | HA | 61|
-HA_CA04_R-v2 | AG TAG AAA CAA GGG TGT TTT TC | Reverse | HA | 61|
-NP_CA04_F | ATA TAC GCG TAG CAA AAG CAG GGT AG | Forward | NP | 67|
-NP_CA04_R | ATA TAC GCG TAG TAG AAA CAA GGG TA | Reverse | NP | 67|
-NA_CA04_F | ATA TAC GCG TAG CAA AAG CAG GAT TT | Forward | NA | 66|
-NA_CA04_R | ATA TAC GCG TAG TAG AAA CAA GGA GT | Reverse | NA | 66|
-M_CA04_F | ATA TAC GCG TAG CAA AAG CAG GTA GA | Forward | M | 65|
-M_CA04_R | ATA TAC GCG TAG TAG AAA CAA GGT AG | Reverse | M | 65|
-NS_CA04_F | ATA TAG GCG TAG CAA AAG CAG GGT GA | Forward | NS | 69|
-NS_CA04_R | ATA TAC GCG TAG TAG AAA CAA GGG TG | Reverse | NS | 69|
+| PB2_CA04_F | ATA TAC GCG TAG CGA AAG CAG GTC AA | Forward |  PB2 | 67 |
+|PB2_CA04_R | ATA TAC GCG TAG TAG AAA CAA GGT CG | Reverse | PB2 | 67 |
+|PB1_CA04_F | ATA TAC GCG TAG CGA AAG CAG GCA AA | Forward | PB1 | 67|
+|PB1_CA04_R | ATA TAC GCG TAG TAG AAA CAA GGC AT | Reverse | PB1 | 67|
+|PA_CA04_F | ATA TAC GCG TAG CGA AAG CAG GTA CT | Forward | PA | 63|
+|PA_CA04_R | ATA TAC GCG TAG TAG AAA CAA GGT AC | Reverse | PA | 63|
+|HA_CA04_F_v1 | ATA TAC GCG TAG CGA AAG CAG GGG AA | Forward | HA | 61|
+|HA_CA04_R_v1 | ATA TAC GCG TAG TAG AAA CAA GGT GT | Reverse | HA | 61|
+|HA_CA04_F-v2 | AG CAA AAG CAG GGG AAA ACA A | Forward | HA | 61|
+|HA_CA04_R-v2 | AG TAG AAA CAA GGG TGT TTT TC | Reverse | HA | 61|
+|NP_CA04_F | ATA TAC GCG TAG CAA AAG CAG GGT AG | Forward | NP | 67|
+|NP_CA04_R | ATA TAC GCG TAG TAG AAA CAA GGG TA | Reverse | NP | 67|
+|NA_CA04_F | ATA TAC GCG TAG CAA AAG CAG GAT TT | Forward | NA | 66|
+|NA_CA04_R | ATA TAC GCG TAG TAG AAA CAA GGA GT | Reverse | NA | 66|
+|M_CA04_F | ATA TAC GCG TAG CAA AAG CAG GTA GA | Forward | M | 65|
+|M_CA04_R | ATA TAC GCG TAG TAG AAA CAA GGT AG | Reverse | M | 65|
+|NS_CA04_F | ATA TAG GCG TAG CAA AAG CAG GGT GA | Forward | NS | 69|
+|NS_CA04_R | ATA TAC GCG TAG TAG AAA CAA GGG TG | Reverse | NS | 69|
 
 ## Gel purification / Extraction and Quantification by Qubit Fluorometer 
 
