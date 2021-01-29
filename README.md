@@ -12,3 +12,7 @@ Shared protocols used for Friedrich Lab projects.
 * [vRNA isolation with Maxwell](https://github.com/tcflab/protocols/blob/master/vRNA_Isolation_with_Maxwell.md)
 * [SSIII One Step QRT-PCR](https://github.com/tcflab/protocols/blob/master/SSIII_OneStep_QRTPCR.md)
 * [Lifson tissue isolation protocol](https://github.com/tcflab/protocols/blob/master/Lifson_tissue_isolation_protocol.md)
+* [CMV PrimeTime assay preparation](https://github.com/tcflab/protocols/blob/master/CMV_PrimeTime_assay_preparation.md)
+* [CMV VL QPCR UL54](https://github.com/tcflab/protocols/blob/master/CMV_VL_QPCR_UL54.md)
+* [CMV standard preparation](https://github.com/tcflab/protocols/blob/master/CMV_standard_preparation.md)
+* [DNA isolataion CMV VL](https://github.com/tcflab/protocols/blob/master/DNA_isolation_CMV_VL.md)
