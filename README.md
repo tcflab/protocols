@@ -16,3 +16,4 @@ Shared protocols used for Friedrich Lab projects.
 * [CMV VL QPCR UL54](https://github.com/tcflab/protocols/blob/master/CMV_VL_QPCR_UL54.md)
 * [CMV standard preparation](https://github.com/tcflab/protocols/blob/master/CMV_standard_preparation.md)
 * [DNA isolataion CMV VL](https://github.com/tcflab/protocols/blob/master/DNA_isolation_CMV_VL.md)
+* [DNA_isolation_CMV_increased_sensitivity] (https://github.com/tcflab/protocols/blob/master/DNA_isolation_CMV_increased_sensitivity.md)
