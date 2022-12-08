@@ -1,6 +1,6 @@
 # CMV_UL54 QPCR Protocol
 ## Materials needed:
-Express QPCR Supermix Universal (LifeTechnologies catalog # 11785-200)
+Taqman Fast Advanced Master Mix (LifeTechnologies catalog # 4444557)
 
 CMV_UL54 PrimeTime assay mix
 
