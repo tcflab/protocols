@@ -1,7 +1,7 @@
 # Influenza Whole genome sequencing using universal primer 
 
-**Author**: Wanting Wei 
-**Date**: 2023-05-25  
+**Author**: Wanting Wei <br>
+**Date**: 2023-05-25  <br>
 **Materials**: Catalog numbers for reagents and materials are listed within the protocol. 
 
 **Purpose**: To generate whole genome sequecing data for Influenza A/ Influenza B vrius.
